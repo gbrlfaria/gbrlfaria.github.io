@@ -321,4 +321,136 @@ Then, they evaluated the generalization ability of the models by measuring their
 Based on these results, the authors classified each architecture according to the [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) (see figure above).
 Notice how memory-augmented neural networks exhibit a stronger capacity compared to the other architectures, and how Transformers seemingly do not align with any level of the Chomsky hierarchy.
 
+| Neural Network Architecture  | Recognizable Languages                | References                             |
+| :--------------------------- | :------------------------------------ | :------------------------------------- |
+| Sigmoid / Tanh RNN           | Regular languages                     | <d-cite key="siegelmann1996farnn,merrill2019sequential" />      |
+| ReLU RNN                     | Regular languages + Counter languages | <d-cite key="weiss2018practical" /> |
+| LSTM                         | Regular languages + Counter languages | <d-cite key="weiss2018practical,merrill2019sequential" /> |
+| GRU                          | Regular languages                     | <d-cite key="merrill2019sequential" /> |
+| CNN (finite receptive field) | Strictly local languages              | <d-cite key="merrill2019sequential" /> |
 
+<div class="caption">
+  Common neural network architectures and the formal language classes they can theoretically recognize.
+</div>
+
+Within this context, Merrill <d-cite key="merrill2019sequential,merrill2020formal" /> made an important theoretical advance by formalizing the concept of saturated neural networks.
+In these networks, activation values are discretized by increasing the parameter norm to an asymptotic limit in the presence of squashing activation functions, similarly to the idea described in <d-cite key="siegelmann1996farnn" />.
+The concept of saturated neural networks enabled a principled analysis of neural sequence models that led to a more realistic classification of their computational capabilities.
+The table above presents some of the most relevant theoretical results related to this line of research.
+
+## The computational power of Transformers
+
+<div class="row justify-content-center">
+  <div>
+    {% include figure.html path="assets/img/transformer.svg" class="img-fluid" %}
+  </div>
+</div>
+<div class="caption">
+  The Transformer architecture <d-cite key="zhang2023dive"></d-cite>.
+</div>
+
+So far, much of the results we have seen focused on recurrent neural networks.
+But the most prominent architecture in today's sequence processing landscape is the Transformer, which is the basis of models like ChatGPT and other LLMs.
+Due to the relatively recent emergence of this architecture <d-cite key="vaswani2017transformer" />, research into the theory of Transformers and their attention mechanism is comparably new in relation to that of RNNs.
+Nonetheless, many recent studies have aimed at theoretically analyzing them.
+
+Inspired by Siegelmann’s work <d-cite key="siegelmann1992turing" />, Pérez et al. <d-cite key="perez2019turing,perez2021turing" /> proved the Turing completeness of Transformers.
+The proof consisted in directly simulating a Turing machine, step by step, using an encoder-decoder Transformer.
+In the proposed simulation, the output tokens are responsible for keeping track of the machine's state and current symbol at each time step.
+In each forward pass, the decoder calculates the current position of the Turing machine’s head by summing the directions of all previous head movements (i.e., $$\{+1,-1\}$$), which are in turn calculated from the previous output tokens.
+Then, it retrieves the symbol corresponding to the calculated position and proceeds to output the next state and the next symbol under the head.
+This process is repeated until halting.
+Similarly to Siegelmann and Sontag <d-cite key="siegelmann1992turing" />, the authors assumed arbitrary precision and an unlimited number of computation steps.
+
+Contrasting with Pérez’s approach, another line of research analyzed Transformers from a different perspective.
+In particular, this line of research focuses on the ability of Transformer encoders to process strings in a single step, as opposed to solving tasks using multiple decoder steps.
+In this context, the first theoretical results on the limitations of Transformers were shown by Hahn <d-cite key="hahn2020limitations" />.
+He demonstrated that hard-attention Transformers---in which each layer can only attend to a single token at a time---cannot recognize the Parity<d-footnote>The Parity language is the language of binary strings whose number of $1$s is even.</d-footnote> and Dyck-$$k$$<d-footnote>The Dyck-$k$ language is the language of well-balanced parentheses, where $k$ indicates the number of types of parentheses. For instance, “({()})” is a valid string in the Dyck-2 language, while “({” and “({))” are not. Due to its nature, this language is often used as a proxy for hierarchy understanding, which is considered essential for effective natural language processing.</d-footnote> languages, suggesting limitations on the ability of Transformers to model hierarchy.
+Moreover, Hahn showed that soft-attention Transformers cannot robustly model the Parity and Dyck-$$k$$ languages, being unable to attain perfect cross-entropy on these tasks.
+Particularly, this proof assumed that all layers of the Transformer are [Lipschitz-continuous](https://en.wikipedia.org/wiki/Lipschitz_continuity).
+
+Hahn’s work laid the ground for subsequent studies.
+Chiang and Cholak <d-cite key="chiang2022overcoming" /> followed up by observing that the Lipschitz-continuity assumption disregarded the impact of layer normalization on the Transformer.
+Based on this observation, the authors constructed a soft-attention Transformer with layer normalization that can robustly recognize the Parity language.
+Yao et al. <d-cite key="yao2021bounded" /> also followed up, demonstrating that Transformers can recognize Dyck languages with bounded nesting depth.
+According to the authors, this setup could better represent the hierarchical structure of natural language, which could help explain the success of Transformers in natural language processing (NLP).
+Meanwhile, Bhattamishra et al. <d-cite key="bhattamishra2020ability" /> demonstrated that uniform-attention Transformers---in which each layer can attend to multiple tokens with uniform intensity---can recognize the Shuffle-Dyck-$$k$$<d-footnote>The Shuffle-Dyck-$k$ is a Dyck-$k$ language where the opening and closing brackets needn’t have matching types. For instance, “((}}” is a valid Shuffle-Dyck-2 language.</d-footnote> language.
+Furthermore, they showed that Transformers can simulate a less powerful kind of counter automaton called Simplified Stateless Counter Machine (SSCM), establishing a first lower bound on the computational power of these models.
+They supported this observation by empirically demonstrating that Transformers can learn several regular and counter languages.
+
+In parallel, Weiss et al. <d-cite key="weiss2021rasp" /> introduced RASP, a programming language that closely emulates the computational constraints of the Transformer architecture, providing a first computational model of Transformers that could be useful in understanding their inner workings and learning abilities.
+In their work, the authors manually construct RASP programs to solve different tasks and show that these can be realized by actual models.
+
+<div class="row justify-content-center">
+  <div>
+    {% include figure.html path="assets/img/example_circuit.svg" class="img-fluid" %}
+  </div>
+</div>
+<div class="caption">
+  A Boolean circuit that takes a string in $\{0, 1\}^5$ and returns whether it contains the bigram $11$ <d-cite key="zhang2023dive"></d-cite>.
+  By constructing families of circuits (i.e., sets of related circuits parameterized by input size), we can use circuit complexity theory to analyze the computational capabilities of parallel models in processing arbitrary strings.
+</div>
+
+A more robust understanding of the computational model of Transformers emerged after Hao et al. <d-cite key="hao2022circuit" /> analyzed the architecture using circuit complexity theory.
+Simplifying and unifying prior results, the authors proved that hard-attention Transformers can only recognize formal languages in the complexity class $$\text{AC}^0$$, which comprises the languages recognizable by families of Boolean circuits with polynomial size constant depth.
+The computational power of uniform and soft-attention Transformers, however, remained an open question.
+Through additional developments <d-cite key="merrill2022saturated" />, Merrill and Sabharwal <d-cite key="merrill2023parallelism" /> finally published the paper titled *The Parallelism Tradeoff: Limitations of Log-Precision Transformers*.
+In this paper, they established that log-precision Transformers can be simulated by uniform polynomial-size constant-depth threshold circuits and, as a result, are limited to recognizing languages in $$\text{TC}^0$$.
+This result substantially subsumes previous research and suggests fundamental limitations on the expressive capacity of Transformers.
+Later, Chiang et al. <d-cite key="chiang2023tighter" /> improved on these results by proving tighter bounds on the expressivity of Transformers in terms of first-order logic with counting quantifiers.
+
+In summary, research suggests that the Transformer does not align with any of the major classes of the Chomsky hierarchy.
+Rather, results indicate that Transformers correspond to a limited parallel computational model, echoing the early idea that the attention mechanism has limited sequential processing abilities <d-cite key="tran2018hierarchy,dehghani2019ut" />.
+In particular, Merrill and Sabharwal's findings indicate that, under reasonable assumptions, there are many problems for which Transformers cannot generalize.
+For instance, it would be impossible for an encoder-only Transformer such as BERT <d-cite key="devlin2019bert" /> to achieve perfect generalization on the [Boolean satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) (SAT).
+Likewise, a similar statement can be made about decoder-only Transformers like GPT <d-cite key="brown2020gpt" />.
+Specifically, no such an LLM would be able to correctly answer the question “Is the Boolean formula $$X$$ satisfiable?” for arbitrary $$X$$ with a simple yes-or-no answer, since that would imply a computational budget of a single step. Importantly, this limitation is not confined to the SAT problem; rather, it extends to *any problem of equivalent complexity*.
+
+## Are there more powerful models?
+
+Several approaches have been adopted to overcome the limitations of conventional architectures and create more powerful models.
+One of them, which we have already mentioned, is memory-augmented neural networks <d-cite key="das1992stack,grefenstette2015transduce,hao2018context,joulin2015inferring,suzgun2019memory,dusell2023nstack,graves2014ntm,rae2016scaling" />.
+In general, these networks are constructed by equipping a recurrent neural network with some kind of differentiable memory, usually with the goal of emulating a stronger kind of automaton.
+Another approach is based on the very observation that, while the computational budget of a neural network is often constant, some problem instances are harder than others and may thus require more computation. With this in mind, researchers have proposed several dynamic computation schemes for neural networks <d-cite key="graves2017act,dehghani2019ut,banino2021pondernet" />, which allow them to adapt the amount of computation according to the input.
+However, these approaches often result in models that are complex, difficult to scale, or that do not beat Transformers in practical tasks.
+This raises a question: is there a simple model that is both powerful and efficient, encompassing both parallel and sequential computation? This query motivated me to start my own investigation during my undergraduate studies. Let’s briefly explore it.
+
+One interesting line of research investigates the use of differentiable optimizers as neural network layers.
+The main idea is to use a parameterized optimization procedure as a part of the forward pass of a neural network and then differentiate through it such that its parameters can be learned.
+Examples of this kind of model include OptNet <d-cite key="amos2017optnet" />, a differentiable convex optimization solver, SATNet <d-cite key="wang2019satnet" />, a differentiable MAXSAT solver based on semidefinte programming, and CombOptNet <d-cite key="paulus2021comboptnet" />, an integer programming solver that uses gradient approximations for differentiability.
+Similarly, IREM <d-cite key="du2022irem" /> is a differentiable energy-based model that solves problems by minimizing an energy function using gradient descent.
+By formulating the forward pass as an optimization problem, these models have a real potential for greater expressive power, often promising superior performance in reasoning problems.
+However, they can be difficult to use practice.
+In general, the optimization procedures associated with these models incur in elevated computational costs, which can quickly become prohibitive. Moreover, these models are not adapted to sequence data, which precludes their immediate use in applications such as language modeling.
+
+In this context, a different yet related class of models captures our attention: the class of deep equilibrium models (DEQs) <d-cite key="bai2019deq" />.
+In essence, these models revolve around solving an equilibrium equation expressed as $$\mathbf z^\star=f(\mathbf z^\star,\mathbf x)$$.
+Their output is calculated by repeatedly applying a neural network layer $$f(\cdot)$$ until a fixed point is reached, making DEQs equivalent to infinitely deep weight-tied neural networks.
+As for backpropagation, these models exploit implicit differentiation in order to compute gradients by solving another equilibrium equation, without the need to store intermediate activations.
+Notably, in contrast to the previously discussed models, DEQs can be readily applied to sequence data by employing convolutional and Transformer layers.
+In fact, they have shown positive results in several NLP benchmarks, with some studies suggesting that DEQs have superior generalization capabilities compared to standard architectures <d-cite key="liang2021deqood" />.
+
+However, it is crucial to understand the abilities of these models from a theoretical perspective.
+Are DEQs any more expressive than regular CNNs and Transformers? Does their infinite depth lend them more computational power? The answer is yes.
+I will not go into much detail, but we can show that DEQs can simulate formalisms ranging from finite automata to Turing machines, depending on the chosen assumptions.
+For the Turing machine simulation, the key is to imagine that the vector $$\mathbf z$$ represents the tape, where each position encodes a symbol, a state, and the presence of the head.
+Then, at each step, we only need to update the current symbol and state and then move the head to one of the neighboring positions, which can be easily done with convolution operations.
+Unfortunately, these results don’t necessarily translate well to practice. For instance, running the experiments from Delétang’s work <d-cite key="deletang2023chomsky" /> will show that DEQ-CNNs fail to learn even the most basic regular languages.
+Moreover, DEQs are quite inefficient compared to regular sequence models, which can render them unusable on longer sequences.
+
+The bottom line is that computational efficiency seems to be a major issue among all these approaches.
+It appears that there exists, in fact, a parallelism tradeoff, and that it is key to the efficiency and success of Transformers; and it seems that any attempt at a more powerful neural network architecture inevitably leads to complications.
+
+## What now?
+
+We started this article on a quest to understand the reasoning and general computation abilities of neural networks.
+Particularly, we have focused on the computational power of Transformers, the architecture that powers most current LLMs.
+Research on the subject, however, reveals that the computations that these models can perform in a single step are quite limited, and that there are many problems that they cannot solve.
+Unfortunately, alternative architectures that might offer greater computational capabilities often come with a variety of drawbacks such as elevated computational costs, making them impractical choices for creating models capable of general intelligence.
+
+But what if we give up on the idea of having a model with an “all-powerful” step and fully embrace the idea of solving problems through multiple explicit “weak” steps?
+After all, this is the approach used in Pérez’s paper in order to prove the Turing completeness of Transformers.
+This is also what the “step-by-step thinking” strategy <d-cite key="kojima2022zeroshot,wei2022cot" />, widely used by LLMs, looks like.
+Is this ultimately the right approach to problem-solving?
+If so, are Transformer-based LLMs already capable of general computation, meaning that they are all we need to achieve general intelligence?
+Let’s discuss this further.
