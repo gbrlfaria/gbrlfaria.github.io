@@ -12,7 +12,7 @@ authors:
     affiliations:
       name: "-"
 
-bibliography: 2023-09-06-neural-network-computational-power.bib
+bibliography: 2023-09-06-neural-networks-computational-power.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
