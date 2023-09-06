@@ -2138,14 +2138,14 @@ d-appendix > distill-appendix {
   cursor: default;
   white-space: nowrap;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", Helvetica, sans-serif;
-  font-size: 75%;
+  // font-size: 75%;
   color: hsla(206, 90%, 20%, 0.7);
   display: inline-block;
   line-height: 1.1em;
   text-align: center;
   position: relative;
-  top: -2px;
-  margin: 0 2px;
+  // top: -2px;
+  // margin: 0 2px;
 }
 
 figcaption .citation-number {
