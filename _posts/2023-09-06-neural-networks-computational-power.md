@@ -462,7 +462,7 @@ If so, are Transformer-based LLMs already capable of general computation, meanin
 Let's discuss this further.
 
 Let's start by going back to Pérez's work.
-In order to see if his Turing-completeness proof holds in practice, we must go over its assumptions.
+In order to see if his Turing completeness proof holds in practice, we must go over its assumptions.
 The two main ones are unbounded computation and arbitrary precision.
 Let's ignore the assumption of an unlimited number of computation steps, since that is precisely what we're aiming for---taking as many steps as necessary in order to solve a problem.
 Let's also ignore the arbitrary precision assumption, this time on the basis that the floating-point numbers on the computer are precise enough to carry Turing-complete computation for all practical problems (in fact, some believe that log-precision Transformers have enough capacity to compute the Turing machine step in Pérez's construction).
