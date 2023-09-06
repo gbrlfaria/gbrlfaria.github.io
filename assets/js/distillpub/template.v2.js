@@ -4251,7 +4251,7 @@ d-math[block] {
 }
 
 :host {
-
+  display: inline-block;
 }
 
 sup {
@@ -4260,6 +4260,7 @@ sup {
   position: relative;
   top: -.5em;
   vertical-align: baseline;
+  display: inline-block;
 }
 
 span {
