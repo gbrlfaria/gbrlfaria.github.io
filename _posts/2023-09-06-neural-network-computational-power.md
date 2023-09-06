@@ -68,7 +68,7 @@ The [theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation)
 Using this theory, we are able to analyze the capabilities of different models of computation, establish the computational complexity of different problems in terms of space and time, and even determine whether a problem is computable at all.
 To enable this, the theory of computation offers a wide range of formal tools, including [automata](https://en.wikipedia.org/wiki/Automata_theory), [formal languages](https://en.wikipedia.org/wiki/Formal_language), [grammars](https://en.wikipedia.org/wiki/Formal_grammar), logics, and [circuits](https://en.wikipedia.org/wiki/Circuit_(computer_science)).
 
-There are many different models of computation within this theory, each with their own set of capabilities.
+There are many different models of computation within this theory, each with their own set of capabilities and some stronger than others.
 The strongest of them is the [Turing machine](https://en.wikipedia.org/wiki/Turing_machine), which is capable of performing any algorithmic computation.
 According to the [Church-Turing thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis), any function that is computable can be computed by a Turing machine.
 Thus, any model that can simulate a Turing machine is equally capable of general computation.
@@ -112,4 +112,213 @@ This process has led to the development of the modern neural networks that we kn
 Concurrently, the theory of computation has also advanced, influencing the study of the computational power of these neural networks.
 
 ## The computational power of modern sequence models
+
+<div class="row justify-content-center">
+  <div>
+    {% include figure.html path="assets/img/rnn.svg" class="img-fluid" %}
+  </div>
+</div>
+<div class="caption">
+  Illustration of a recurrent neural network (RNN).
+</div>
+
+With the development of modern RNNs <d-cite key="elman1990rnn" />, researchers became increasingly interested in understanding the computational and learning abilities of sequence-processing neural networks.
+This has led to multiple research efforts into determining the capabilities and limitations of RNNs and their extensions, such as the LSTM and memory-augmented neural networks <d-cite key="steijvers1996csrnn,gers2001lstm,das1992stack,siegelmann1996farnn" />.
+Using tools from the theory of computation, including automata and formal languages, researchers have conducted empirical and theoretical analyses in order to establish what kinds of strings such networks can process and what problems they can effectively solve.
+
+Around this time, an important line of research emerged, focusing on the theoretical investigation of the Turing completeness of neural networks.
+In their classical paper, Siegelmann and Sontag <d-cite key="siegelmann1992turing" /> established the Turing completeness of RNNs with arbitrary precision, saturated linear activations, and unlimited computational steps.
+They demonstrated this by simulating a two-stack machine, where the RNN’s (arbitrarily precise) hidden state encoded the machine’s internal state at each step.
+This result would influence research decades later.
+
+However, there are limitations associated with the assumptions in Siegelmann’s work.
+Several authors have argued that these are unrealistic, leaving a significant gap between theory and practice <d-cite key="chen2018recurrent,weiss2018practical,merrill2019sequential" />.
+Notably, the Turing machine simulation proposed in her proof would be difficult to realize in a practical learning setting and substantially differs from the typical supervised sequence modeling setup.
+Thus, a more recent line of research attempts to study the computational power of neural networks under more realistic assumptions, such as finite precision and a number of computation steps bounded by the input length.
+
+<div class="l-page row justify-content-center">
+  <table>
+    <tr>
+      <th>Level</th>
+      <th>Task</th>
+      <th>RNN</th>
+      <th>LSTM</th>
+      <th>Stack-RNN</th>
+      <th>Tape-RNN</th>
+      <th>Transformer (encoder)</th>
+      <th>Transformer (autoregressive)</th>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td>Even Pairs</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>96.4</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td>Modular Arithmetic (Simple)</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>24.2</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td>Parity Check</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>52.0</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td>Cycle Navigation</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>61.9</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>DCF</td>
+      <td>Stack Manipulation</td>
+      <td>56.0</td>
+      <td>59.1</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>57.5</td>
+      <td>53.2</td>
+    </tr>
+    <tr>
+      <td>DCF</td>
+      <td>Reverse String</td>
+      <td>62.0</td>
+      <td>60.9</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>62.3</td>
+      <td>53.5</td>
+    </tr>
+    <tr>
+      <td>DCF</td>
+      <td>Modular Arithmetic</td>
+      <td>41.3</td>
+      <td>59.2</td>
+      <td>96.1</td>
+      <td>95.4</td>
+      <td>32.5</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>DCF</td>
+      <td>Solve Equation</td>
+      <td>51.0</td>
+      <td>67.8</td>
+      <td>56.2</td>
+      <td>64.4</td>
+      <td>25.7</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>CS</td>
+      <td>Duplicate String</td>
+      <td>50.3</td>
+      <td>57.6</td>
+      <td>52.8</td>
+      <td>100.0</td>
+      <td>52.8</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>CS</td>
+      <td>Missing Duplicate</td>
+      <td>52.3</td>
+      <td>54.3</td>
+      <td>55.2</td>
+      <td>100.0</td>
+      <td>56.4</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>CS</td>
+      <td>Odds First</td>
+      <td>51.0</td>
+      <td>55.6</td>
+      <td>51.9</td>
+      <td>100.0</td>
+      <td>52.8</td>
+      <td>54.7</td>
+    </tr>
+    <tr>
+      <td>CS</td>
+      <td>Binary Addition</td>
+      <td>50.3</td>
+      <td>55.5</td>
+      <td>52.7</td>
+      <td>100.0</td>
+      <td>54.3</td>
+      <td>69.0</td>
+    </tr>
+    <tr>
+      <td>CS</td>
+      <td>Binary Multiplication</td>
+      <td>50.0</td>
+      <td>53.1</td>
+      <td>52.7</td>
+      <td>58.5</td>
+      <td>52.2</td>
+      <td>52.2</td>
+    </tr>
+    <tr>
+      <td>CS</td>
+      <td>Compute Sqrt</td>
+      <td>54.3</td>
+      <td>57.5</td>
+      <td>56.5</td>
+      <td>57.8</td>
+      <td>52.4</td>
+      <td>52.4</td>
+    </tr>
+    <tr>
+      <td>CS</td>
+      <td>Bucket Sort</td>
+      <td>27.9</td>
+      <td>99.3</td>
+      <td>78.1</td>
+      <td>70.7</td>
+      <td>91.9</td>
+      <td>40.4</td>
+    </tr>
+  </table>
+</div>
+<div class="caption">
+  Maximum accuracy in recognizing different formal languages across the Chomsky hierarchy (R = Regular, DCF = deterministic context-free, CS = context-sensitive) <d-cite key="deletang2023chomsky"></d-cite>. <d-footnote>Notice how the autoregressive Transformer is able to perfectly solve the string duplication task. This might explain one of the most important abilities of LLMs such as ChatGPT, which is to transform text while reliably maintaining information (think of formatting some data into a table or a JSON string).</d-footnote>
+</div>
+
+<div class="row justify-content-center">
+  <div>
+    {% include figure.html path="assets/img/chomsky.svg" class="img-fluid" %}
+  </div>
+</div>
+<div class="caption">
+  Correspondence between formal languages, automatons, and different neural network architectures for sequence processing <d-cite key="deletang2023chomsky"></d-cite>.
+</div>
+
+This trend has been followed by many recent works, both empirical and theoretical, which investigate the computational power of sequence models in practical settings <d-cite key="weiss2018practical,merrill2019sequential,tran2018hierarchy,korsky2019computational,suzgun2019lstm,ebrahimi2020dyck" />.
+Some of these works not only explore the models’ expressive capacity, but also their ability to learn to recognize languages in practice.
+One particularly relevant example is the recent work by Delétang et al. <d-cite key="deletang2023chomsky" />, which empirically examines the ability of various neural network architectures, including RNNs, LSTMs, Transformers, and memory-augmented neural networks, to learn how to recognize different formal languages (see table above).
+To accomplish this, the researchers trained each model using a variety of short strings from each formal language.
+Then, they evaluated the generalization ability of the models by measuring their accuracy on a diverse range of test strings, many considerably longer than those seen during training.
+Based on these results, the authors classified each architecture according to the [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) (see figure above).
+Notice how memory-augmented neural networks exhibit a stronger capacity compared to the other architectures, and how Transformers seemingly do not align with any level of the Chomsky hierarchy.
+
 
