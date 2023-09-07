@@ -74,6 +74,9 @@ According to the [Church-Turing thesis](https://en.wikipedia.org/wiki/Church%E2%
 Thus, any model that can simulate a Turing machine is equally capable of general computation.
 Such models are said to be Turing-complete.
 
+Knowing this, it would be natural to expect that a computational model that can perform arbitrary reasoning and solve arbitrary problems must be capable of performing arbitrary computation.
+In other words for a model to be capable of general intelligence, it must be capable of general computation (Turing-complete).
+
 But what does all of this have to do with neural networks?
 Much like any computational model, neural networks transform an input into an output, and are therefore a subject of the theory of computation.
 Accordingly, we are able to determine the computational power of different neural network architectures based on this theory.
