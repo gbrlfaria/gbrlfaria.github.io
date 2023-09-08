@@ -404,7 +404,7 @@ Later, Chiang et al. <d-cite key="chiang2023tighter" /> improved on these result
 
 In summary, research suggests that the Transformer does not align with any of the major classes of the Chomsky hierarchy.
 Rather, results indicate that Transformers correspond to a limited parallel computational model, echoing the early idea that the attention mechanism has limited sequential processing abilities <d-cite key="tran2018hierarchy,dehghani2019ut" />.
-In particular, Merrill and Sabharwal's findings indicate that, under reasonable assumptions<d-footnote>For example, logspace-uniform $\text{TC}^0 \neq \text{NP}$. See Section 2 of Merrill's paper.</d-footnote>, there are many problems for which Transformers cannot generalize.
+In particular, Merrill and Sabharwal's findings indicate that, under reasonable assumptions<d-footnote>For example, logspace-uniform $\text{TC}^0 \neq \text{NP}$. See Section 2 of Merrill and Sabharwal's paper.</d-footnote>, there are many problems for which Transformers cannot generalize.
 For instance, it would be impossible for an encoder-only Transformer such as BERT <d-cite key="devlin2019bert" /> to achieve perfect generalization on the [Boolean satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) (SAT).
 Likewise, a similar statement can be made about decoder-only Transformers like GPT <d-cite key="brown2020gpt" />.
 Specifically, no such an LLM would be able to correctly answer the question "Is the Boolean formula $$X$$ satisfiable?" for arbitrary $$X$$ with a simple yes-or-no answer, since that would imply a computational budget of a single step.
