@@ -321,7 +321,7 @@ Some of these works not only explore the models' expressive capacity, but also t
 One particularly relevant example is the recent work by Delétang et al. <d-cite key="deletang2023chomsky" />, which empirically examines the ability of various neural network architectures, including RNNs, LSTMs, Transformers, and memory-augmented neural networks, to learn how to recognize different formal languages (see table above).
 To accomplish this, the researchers trained each model using a variety of short strings from each formal language.
 Then, they evaluated the generalization ability of the models by measuring their accuracy on a diverse range of test strings, many considerably longer than those seen during training.
-Based on these results, the authors classified each architecture according to the [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) (see figure above).
+Based on these results, the authors classified each architecture according to the [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) (see image above).
 Notice how memory-augmented neural networks exhibit a stronger capacity compared to the other architectures, and how Transformers seemingly do not correspond to any level of the Chomsky hierarchy.
 
 | Neural Network Architecture  | Recognizable Languages                | References                             |
