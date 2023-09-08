@@ -473,7 +473,7 @@ Given this context, does Pérez's proof apply in practice?
 Not necessarily.
 This is because the construction proposed by Pérez relies on a non-standard attention score function and an unconventional positional encoding scheme.
 Meanwhile, practical Transformers use dot-product attention and standard positional encoding schemes, which would likely render the attention patterns needed for the Turing machine simulation impossible.
-In the end, I believe that the practical computational power of autoregressive Transformer decoders is still unclear.
+In the end, I believe that the practical computational power of autoregressive Transformer decoders is still not entirely clear.
 
 However, even if such Transformers were proven to be Turing-complete in practice, a critical problem would remain: these models have linear memory complexity and quadratic time complexity.
 Because of this, processing excessively long sequences becomes impractical.
