@@ -390,7 +390,7 @@ In their work, the authors manually construct RASP programs to solve different t
   </div>
 </div>
 <div class="caption">
-  A Boolean circuit that takes a string in $\{0, 1\}^5$ and returns whether it contains the bigram $11$ <d-cite key="zhang2023dive"></d-cite>.
+  A Boolean circuit that takes a string in $\{0, 1\}^5$ and returns whether it contains the bigram $11$ <d-cite key="merrill2022saturated"></d-cite>.
   By constructing families of circuits (i.e., sets of related circuits parameterized by input size), we can use circuit complexity theory to analyze the computational capabilities of parallel models in processing arbitrary strings.
 </div>
 
@@ -398,9 +398,8 @@ A more robust understanding of the computational model of Transformers emerged a
 Simplifying and unifying prior results, the authors proved that hard-attention Transformers can only recognize formal languages in the complexity class $$\text{AC}^0$$, which comprises the languages recognizable by families of Boolean circuits with polynomial size constant depth.
 The computational power of uniform and soft-attention Transformers, however, remained an open question.
 Through additional developments <d-cite key="merrill2022saturated" />, Merrill and Sabharwal <d-cite key="merrill2023parallelism" /> finally published the paper titled *The Parallelism Tradeoff: Limitations of Log-Precision Transformers*.
-In this paper, they established that log-precision Transformers can be simulated by uniform polynomial-size constant-depth threshold circuits and, as a result, are limited to recognizing languages in $$\text{TC}^0$$.
-This result substantially subsumes previous research and suggests fundamental limitations on the expressive capacity of Transformers.
-Later, Chiang et al. <d-cite key="chiang2023tighter" /> improved on these results by proving tighter bounds on the expressivity of Transformers in terms of first-order logic with counting quantifiers.
+In this paper, they established that log-precision Transformers can be simulated by uniform polynomial-size constant-depth threshold circuits and, as a result, are limited to recognizing languages in $$\text{TC}^0$$, suggesting fundamental limitations on the expressive capacity of Transformers.
+Later, researchers improved on these results by proving tighter bounds on the expressivity of Transformers in terms of generalizations of first-order logic <d-cite key="chiang2023tighter,merrill2023logic" />.
 
 In summary, research suggests that the Transformer does not align with any of the major classes of the Chomsky hierarchy.
 Rather, results indicate that Transformers correspond to a limited parallel computational model, echoing the early idea that the attention mechanism has limited sequential processing abilities <d-cite key="tran2018hierarchy,dehghani2019ut" />.
