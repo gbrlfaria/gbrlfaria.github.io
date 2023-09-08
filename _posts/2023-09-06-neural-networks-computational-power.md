@@ -399,7 +399,7 @@ Simplifying and unifying prior results, the authors proved that hard-attention T
 The computational power of uniform and soft-attention Transformers, however, remained an open question.
 Through additional developments <d-cite key="merrill2022saturated" />, Merrill and Sabharwal <d-cite key="merrill2023parallelism" /> finally published the paper titled *The Parallelism Tradeoff: Limitations of Log-Precision Transformers*.
 In this paper, they established that log-precision Transformers can be simulated by uniform polynomial-size constant-depth threshold circuits and, as a result, are limited to recognizing languages in $$\text{TC}^0$$, suggesting fundamental limitations on the expressive capacity of Transformers.
-Later, researchers improved on these results by proving tighter bounds on the expressivity of Transformers in terms of generalizations of first-order logic <d-cite key="chiang2023tighter,merrill2023logic" />.
+Later, researchers further improved on these results by proving tighter bounds on the expressivity of Transformers in terms of generalizations of first-order logic <d-cite key="chiang2023tighter,merrill2023logic" />.
 
 In summary, research suggests that the Transformer does not align with any of the major classes of the Chomsky hierarchy.
 Rather, results indicate that Transformers correspond to a limited parallel computational model, echoing the early idea that the attention mechanism has limited sequential processing abilities <d-cite key="tran2018hierarchy,dehghani2019ut" />.
