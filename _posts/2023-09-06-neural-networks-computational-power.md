@@ -474,7 +474,7 @@ This is because the construction proposed by Pérez relies on a non-standard att
 Meanwhile, practical Transformers use dot-product attention and standard positional encoding schemes, which would likely render the attention patterns needed for the Turing machine simulation impossible.
 In the end, I believe that the practical computational power of autoregressive Transformer decoders is still not entirely clear.
 
-However, even if such Transformers were proven to be Turing-complete in practice, a critical problem would remain: these models have linear memory complexity and quadratic time complexity.
+However, even if such Transformers were proven to be Turing-complete in practice, a critical problem would remain: these models have linear space complexity and quadratic time complexity.
 Because of this, processing excessively long sequences becomes impractical.
 Certainly, such models are not able to naively reason for an indefinite amount of time, nor are they able to solve problems with very long descriptions.
 As an example, fixing a bug in a program with 10K lines of code can be unfeasible even for the largest commercial LLMs of today.
