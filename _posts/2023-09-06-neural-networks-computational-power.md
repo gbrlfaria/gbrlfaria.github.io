@@ -69,7 +69,7 @@ Using this theory, we are able to analyze the capabilities of different models o
 To enable this, the theory of computation offers a wide range of formal tools, including [automata](https://en.wikipedia.org/wiki/Automata_theory), [formal languages](https://en.wikipedia.org/wiki/Formal_language), [grammars](https://en.wikipedia.org/wiki/Formal_grammar), logics, and [circuits](https://en.wikipedia.org/wiki/Circuit_(computer_science)).
 
 There are many different models of computation within this theory, each with their own set of capabilities and some stronger than others.
-The strongest of them is the [Turing machine](https://en.wikipedia.org/wiki/Turing_machine), which is capable of performing any algorithmic computation.
+A particularly important one is the [Turing machine](https://en.wikipedia.org/wiki/Turing_machine), which is capable of performing any algorithmic computation.
 According to the [Church-Turing thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis), any function that is computable can be computed by a Turing machine.
 Thus, any model that can simulate a Turing machine is equally capable of general computation.
 Such models are said to be Turing-complete.
