@@ -95,7 +95,7 @@ This relationship can be traced back to the pioneering work of McCulloch and Pit
 </div>
 <div class="caption">
   Representation of a logical proposition by a McCulloch-Pitts network <d-cite key="logicalneuron"></d-cite>.
-  In the diagram, painted dot ends indicate excitatory inputs, while looping ends indicate inhibitory inputs.
+  In the diagram, painted-dot ends indicate excitatory inputs, while looping ends indicate inhibitory inputs.
 </div>
 
 In 1943, McCulloch and Pitts introduced the first computational model of biological neural networks.
@@ -106,7 +106,7 @@ By combining multiple neurons, we can therefore construct propositions of increa
 Based on this, McCulloch and Pitts characterized the set of propositions that can be expressed by neural networks.
 
 Later, in 1956, Kleene published a mathematical reworking of McCulloch's paper which also included significant developments in the theory of finite automata.
-In his paper, titled *Representation of Events in Nerve Nets and Finite Automata* Kleene characterized the set of "regular events" (which we today refer to as regular expressions), and showed that this is exactly what finite automata and McCulloch-Pitts networks with circles<d-footnote>Feedback; recurrent connections. Interestingly, the idea of a recurrent network was present since the very inception of artificial neural networks in McCulloch and Pitts's paper, although the modern recurrent neural networks that we know today would not be developed until the late 80s.</d-footnote> can represent.
+In his paper, titled *Representation of Events in Nerve Nets and Finite Automata*, Kleene characterized the set of "regular events" (which we today refer to as regular expressions), and showed that this is exactly what finite automata and McCulloch-Pitts networks with circles<d-footnote>Feedback; recurrent connections. Interestingly, the idea of a recurrent network was present since the very inception of artificial neural networks in McCulloch and Pitts's paper, although the modern recurrent neural networks that we know today would not be developed until the late 80s.</d-footnote> can represent.
 Therefore, Kleene established the equivalence between finite automata and McCulloch-Pitts networks.
 The simulation of finite automata using McCulloch-Pitts neurons was later explicitly shown by Minsky in 1967, in his book *Computation: Infinite and Finite Machines*.
 
@@ -439,7 +439,7 @@ In fact, they have shown positive results in several NLP benchmarks, with some s
 However, it is crucial to understand the abilities of these models from a theoretical perspective.
 Are DEQs any more expressive than regular CNNs and Transformers? Does their infinite depth lend them more computational power?
 The short answer is yes.
-I will not go into much detail, but we can show that DEQs can simulate formalisms ranging from finite automata to Turing machines, depending on the chosen assumptions.
+I will not go into much detail, but we can show that DEQs can simulate formalisms ranging from finite automata to Turing machines, depending on the assumptions made.
 For the Turing machine simulation, the key is to imagine that the vector $$\mathbf z$$ represents the tape, where each position encodes a symbol, a state, and the presence of the head.
 Then, at each step, we only need to update the current symbol and state and then move the head to one of the neighboring positions, which can be easily done with convolution operations.
 Unfortunately, these results do not necessarily translate well to practice.
