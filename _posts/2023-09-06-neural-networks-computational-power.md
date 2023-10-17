@@ -492,8 +492,8 @@ Moreover, since the model is RNN-based, it cannot be parallelized during trainin
 Yet, efficiency during training is just as important as efficiency during inference.
 After all, large-scale self-supervised pretraining is the cornerstone of building LLMs.
 Fortunately, a recent yet rapidly evolving line of research aims to develop efficient alternatives to Transformers while matching their performance levels <d-cite key="gu2020hippo,gu2021lssl,gu2022efficiently,smith2023simplified,orvieto2023resurrecting,poli2023hyena,sun2023retnet" />.
-Particularly, this line of research has produced several state-space models that can be both trained in parallel and run recurrently during inference.
-With remarkable constant complexity both in space and time, these models have exhibited promising results across a multitude of sequence processing tasks, both real and artificial.
+Particularly, this line of research has produced several state-space models that can be both trained in parallel and run recurrently at inference time.
+With remarkable constant complexity both in space and time during inference, these models have exhibited promising results across a multitude of sequence processing tasks, both real and artificial.
 Notably, there have been good results on both language modeling and downstream NLP tasks.
 However, it should be noted that these models are based on linear recurrences, in contrast to the nonlinear recurrences of traditional RNNs.
 Consequently, the expressive power of such networks remains unknown, although it is likely weaker than that of Transformers.
