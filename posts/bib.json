@@ -1,0 +1,2870 @@
+[
+    {
+      "URL": "https://arxiv.org/pdf/2102.12092.pdf",
+      "author": [
+        {
+          "family": "Ramesh",
+          "given": "Aditya"
+        },
+        {
+          "family": "Pavlov",
+          "given": "Mikhail"
+        },
+        {
+          "family": "Goh",
+          "given": "Gabriel"
+        },
+        {
+          "family": "Gray",
+          "given": "Scott"
+        },
+        {
+          "family": "Voss",
+          "given": "Chelsea"
+        },
+        {
+          "family": "Radford",
+          "given": "Alec"
+        },
+        {
+          "family": "Chen",
+          "given": "Mark"
+        },
+        {
+          "family": "Sutskever",
+          "given": "Ilya"
+        }
+      ],
+      "id": "ramesh2021zeroshot",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "title": "Zero-shot text-to-image generation",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2204.06125.pdf",
+      "author": [
+        {
+          "family": "Ramesh",
+          "given": "Aditya"
+        },
+        {
+          "family": "Dhariwal",
+          "given": "Prafulla"
+        },
+        {
+          "family": "Nichol",
+          "given": "Alex"
+        },
+        {
+          "family": "Chu",
+          "given": "Casey"
+        },
+        {
+          "family": "Chen",
+          "given": "Mark"
+        }
+      ],
+      "id": "ramesh2022hierarchical",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "title": "Hierarchical text-conditional image generation with CLIP latents",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2112.10752.pdf",
+      "author": [
+        {
+          "family": "Rombach",
+          "given": "Robin"
+        },
+        {
+          "family": "Blattmann",
+          "given": "Andreas"
+        },
+        {
+          "family": "Lorenz",
+          "given": "Dominik"
+        },
+        {
+          "family": "Esser",
+          "given": "Patrick"
+        },
+        {
+          "family": "Ommer",
+          "given": "Björn"
+        }
+      ],
+      "id": "rombach2021highresolution",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "type": "misc"
+    },
+    {
+      "URL": "https://doi.org/10.1038/nature16961",
+      "author": [
+        {
+          "family": "Silver",
+          "given": "David"
+        },
+        {
+          "family": "Huang",
+          "given": "Aja"
+        },
+        {
+          "family": "Maddison",
+          "given": "Chris J."
+        },
+        {
+          "family": "Guez",
+          "given": "Arthur"
+        },
+        {
+          "family": "Sifre",
+          "given": "Laurent"
+        },
+        {
+          "dropping-particle": "van den",
+          "family": "Driessche",
+          "given": "George"
+        },
+        {
+          "family": "Schrittwieser",
+          "given": "Julian"
+        },
+        {
+          "family": "Antonoglou",
+          "given": "Ioannis"
+        },
+        {
+          "family": "Panneershelvam",
+          "given": "Veda"
+        },
+        {
+          "family": "Lanctot",
+          "given": "Marc"
+        },
+        {
+          "family": "Dieleman",
+          "given": "Sander"
+        },
+        {
+          "family": "Grewe",
+          "given": "Dominik"
+        },
+        {
+          "family": "Nham",
+          "given": "John"
+        },
+        {
+          "family": "Kalchbrenner",
+          "given": "Nal"
+        },
+        {
+          "family": "Sutskever",
+          "given": "Ilya"
+        },
+        {
+          "family": "Lillicrap",
+          "given": "Timothy"
+        },
+        {
+          "family": "Leach",
+          "given": "Madeleine"
+        },
+        {
+          "family": "Kavukcuoglu",
+          "given": "Koray"
+        },
+        {
+          "family": "Graepel",
+          "given": "Thore"
+        },
+        {
+          "family": "Hassabis",
+          "given": "Demis"
+        }
+      ],
+      "container-title": "Nature",
+      "id": "silver2016go",
+      "issue": "7587",
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "page": "484-489",
+      "title": "Mastering the game of go with deep neural networks and tree search",
+      "type": "article-journal",
+      "volume": "529"
+    },
+    {
+      "URL": "https://doi.org/10.1038/nature24270",
+      "author": [
+        {
+          "family": "Silver",
+          "given": "David"
+        },
+        {
+          "family": "Schrittwieser",
+          "given": "Julian"
+        },
+        {
+          "family": "Simonyan",
+          "given": "Karen"
+        },
+        {
+          "family": "Antonoglou",
+          "given": "Ioannis"
+        },
+        {
+          "family": "Huang",
+          "given": "Aja"
+        },
+        {
+          "family": "Guez",
+          "given": "Arthur"
+        },
+        {
+          "family": "Hubert",
+          "given": "Thomas"
+        },
+        {
+          "family": "Baker",
+          "given": "Lucas"
+        },
+        {
+          "family": "Lai",
+          "given": "Matthew"
+        },
+        {
+          "family": "Bolton",
+          "given": "Adrian"
+        },
+        {
+          "family": "Chen",
+          "given": "Yutian"
+        },
+        {
+          "family": "Lillicrap",
+          "given": "Timothy"
+        },
+        {
+          "family": "Hui",
+          "given": "Fan"
+        },
+        {
+          "family": "Sifre",
+          "given": "Laurent"
+        },
+        {
+          "dropping-particle": "van den",
+          "family": "Driessche",
+          "given": "George"
+        },
+        {
+          "family": "Graepel",
+          "given": "Thore"
+        },
+        {
+          "family": "Hassabis",
+          "given": "Demis"
+        }
+      ],
+      "container-title": "Nature",
+      "id": "silver2017gozero",
+      "issue": "7676",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "page": "354-359",
+      "title": "Mastering the game of go without human knowledge",
+      "type": "article-journal",
+      "volume": "550"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2203.02155.pdf",
+      "author": [
+        {
+          "family": "Ouyang",
+          "given": "Long"
+        },
+        {
+          "family": "Wu",
+          "given": "Jeff"
+        },
+        {
+          "family": "Jiang",
+          "given": "Xu"
+        },
+        {
+          "family": "Almeida",
+          "given": "Diogo"
+        },
+        {
+          "family": "Wainwright",
+          "given": "Carroll L."
+        },
+        {
+          "family": "Mishkin",
+          "given": "Pamela"
+        },
+        {
+          "family": "Zhang",
+          "given": "Chong"
+        },
+        {
+          "family": "Agarwal",
+          "given": "Sandhini"
+        },
+        {
+          "family": "Slama",
+          "given": "Katarina"
+        },
+        {
+          "family": "Ray",
+          "given": "Alex"
+        },
+        {
+          "family": "Schulman",
+          "given": "John"
+        },
+        {
+          "family": "Hilton",
+          "given": "Jacob"
+        },
+        {
+          "family": "Kelton",
+          "given": "Fraser"
+        },
+        {
+          "family": "Miller",
+          "given": "Luke"
+        },
+        {
+          "family": "Simens",
+          "given": "Maddie"
+        },
+        {
+          "family": "Askell",
+          "given": "Amanda"
+        },
+        {
+          "family": "Welinder",
+          "given": "Peter"
+        },
+        {
+          "family": "Christiano",
+          "given": "Paul"
+        },
+        {
+          "family": "Leike",
+          "given": "Jan"
+        },
+        {
+          "family": "Lowe",
+          "given": "Ryan"
+        }
+      ],
+      "id": "ouyang2022training",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "title": "Training language models to follow instructions with human feedback",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2303.08774.pdf",
+      "author": [
+        {
+          "family": "OpenAI"
+        }
+      ],
+      "id": "openai2023gpt4",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "GPT-4 technical report",
+      "type": "misc"
+    },
+    {
+      "URL": "https://openai.com/blog/chatgpt",
+      "author": [
+        {
+          "family": "OpenAI"
+        }
+      ],
+      "id": "openai2022chatgpt",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "title": "Introducing ChatGPT",
+      "type": "webpage"
+    },
+    {
+      "URL": "https://www.dlsi.ua.es/~mlf/nnafmc/pbook.pdf",
+      "author": [
+        {
+          "family": "Forcada",
+          "given": "Mikel L."
+        }
+      ],
+      "id": "forcada2002flann",
+      "issued": {
+        "date-parts": [
+          [
+            2002
+          ]
+        ]
+      },
+      "publisher": "Universitat d’Alacant",
+      "title": "Neural networks: Automata and formal models of computation",
+      "title-short": "Neural networks",
+      "type": "article-journal"
+    },
+    {
+      "author": [
+        {
+          "family": "McCulloch",
+          "given": "Warren S."
+        },
+        {
+          "family": "Pitts",
+          "given": "Walter"
+        }
+      ],
+      "container-title": "The bulletin of mathematical biophysics",
+      "id": "mcculloch1943nn",
+      "issue": "4",
+      "issued": {
+        "date-parts": [
+          [
+            1943
+          ]
+        ]
+      },
+      "page": "115-133",
+      "title": "A logical calculus of the ideas immanent in nervous activity",
+      "type": "article-journal",
+      "volume": "5"
+    },
+    {
+      "author": [
+        {
+          "family": "Kleene",
+          "given": "S. C."
+        }
+      ],
+      "container-title": "Automata studies. (AM-34), volume 34",
+      "editor": [
+        {
+          "family": "Shannon",
+          "given": "C. E."
+        },
+        {
+          "family": "McCarthy",
+          "given": "J."
+        }
+      ],
+      "id": "kleene1956automata",
+      "issued": {
+        "date-parts": [
+          [
+            1956
+          ]
+        ]
+      },
+      "page": "3-42",
+      "publisher": "Princeton University Press",
+      "publisher-place": "Princeton",
+      "title": "Representation of events in nerve nets and finite automata",
+      "type": "chapter"
+    },
+    {
+      "author": [
+        {
+          "family": "Minsky",
+          "given": "Marvin"
+        }
+      ],
+      "id": "minsky1967computation",
+      "issued": {
+        "date-parts": [
+          [
+            1967
+          ]
+        ]
+      },
+      "publisher": "Prentice-Hall, Inc.",
+      "publisher-place": "Englewood Cliffs, NJ",
+      "title": "Computation: Finite and infinite machines",
+      "title-short": "Computation",
+      "type": "book"
+    },
+    {
+      "URL": "https://marlin.life.utsa.edu/mcculloch-and-pitts.html",
+      "author": [
+        {
+          "dropping-particle": "at",
+          "family": "UTSA",
+          "given": "C. J. Wilson Laboratory"
+        }
+      ],
+      "id": "logicalneuron",
+      "note": "Accessed on 2023-09-06",
+      "publisher": "Website",
+      "title": "A logical neuron",
+      "type": "webpage"
+    },
+    {
+      "ISSN": "0364-0213",
+      "URL": "https://doi.org/10.1016/0364-0213(90)90002-E",
+      "author": [
+        {
+          "family": "Elman",
+          "given": "Jeffrey L."
+        }
+      ],
+      "container-title": "Cognitive Science",
+      "id": "elman1990rnn",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            1990
+          ]
+        ]
+      },
+      "page": "179-211",
+      "title": "Finding structure in time",
+      "type": "article-journal",
+      "volume": "14"
+    },
+    {
+      "author": [
+        {
+          "family": "Steijvers",
+          "given": "Mark"
+        },
+        {
+          "family": "Grünwald",
+          "given": "Peter"
+        }
+      ],
+      "container-title": "Proceedings of the eighteenth annual conference of the cognitive science society",
+      "edition": "1st",
+      "id": "steijvers1996csrnn",
+      "issued": {
+        "date-parts": [
+          [
+            1996
+          ]
+        ]
+      },
+      "page": "5",
+      "publisher": "Routledge",
+      "title": "A recurrent network that performs a context-sensitive prediction task",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://doi.org/10.1109/72.963769",
+      "author": [
+        {
+          "family": "Gers",
+          "given": "F. A."
+        },
+        {
+          "family": "Schmidhuber",
+          "given": "E."
+        }
+      ],
+      "container-title": "IEEE Transactions on Neural Networks",
+      "id": "gers2001lstm",
+      "issue": "6",
+      "issued": {
+        "date-parts": [
+          [
+            2001
+          ]
+        ]
+      },
+      "page": "1333-1340",
+      "title": "LSTM recurrent networks learn simple context-free and context-sensitive languages",
+      "type": "article-journal",
+      "volume": "12"
+    },
+    {
+      "author": [
+        {
+          "family": "Das",
+          "given": "Sreerupa"
+        },
+        {
+          "family": "Giles",
+          "given": "C Lee"
+        },
+        {
+          "family": "Sun",
+          "given": "Guo-Zheng"
+        }
+      ],
+      "container-title": "Proceedings of the fourteenth annual conference of cognitive science society",
+      "id": "das1992stack",
+      "issued": {
+        "date-parts": [
+          [
+            1992
+          ]
+        ]
+      },
+      "page": "14",
+      "publisher-place": "Indiana University",
+      "title": "Learning context-free grammars: Capabilities and limitations of a recurrent neural network with an external stack memory",
+      "title-short": "Learning context-free grammars",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://doi.org/10.1111/j.1467-8640.1996.tb00277.x",
+      "author": [
+        {
+          "family": "Siegelmann",
+          "given": "Hava T."
+        }
+      ],
+      "container-title": "Computational Intelligence",
+      "id": "siegelmann1996farnn",
+      "issue": "4",
+      "issued": {
+        "date-parts": [
+          [
+            1996
+          ]
+        ]
+      },
+      "page": "567-574",
+      "title": "Recurrent neural networks and finite automata",
+      "type": "article-journal",
+      "volume": "12"
+    },
+    {
+      "URL": "https://doi.org/10.1145/130385.130432",
+      "author": [
+        {
+          "family": "Siegelmann",
+          "given": "Hava T."
+        },
+        {
+          "family": "Sontag",
+          "given": "Eduardo D."
+        }
+      ],
+      "collection-title": "COLT ’92",
+      "container-title": "Proceedings of the fifth annual workshop on computational learning theory",
+      "id": "siegelmann1992turing",
+      "issued": {
+        "date-parts": [
+          [
+            1992
+          ]
+        ]
+      },
+      "page": "440-449",
+      "publisher": "Association for Computing Machinery",
+      "publisher-place": "New York, NY, USA",
+      "title": "On the computational power of neural nets",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/N18-1205.pdf",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Yining"
+        },
+        {
+          "family": "Gilroy",
+          "given": "Sorcha"
+        },
+        {
+          "family": "Maletti",
+          "given": "Andreas"
+        },
+        {
+          "family": "May",
+          "given": "Jonathan"
+        },
+        {
+          "family": "Knight",
+          "given": "Kevin"
+        }
+      ],
+      "container-title": "Proceedings of the 2018 conference of the north american chapter of the association for computational linguistics: Human language technologies, volume 1 (long papers)",
+      "id": "chen2018recurrent",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "page": "2261-2271",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "New Orleans, Louisiana",
+      "title": "Recurrent neural networks as weighted language recognizers",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/P18-2117.pdf",
+      "author": [
+        {
+          "family": "Weiss",
+          "given": "Gail"
+        },
+        {
+          "family": "Goldberg",
+          "given": "Yoav"
+        },
+        {
+          "family": "Yahav",
+          "given": "Eran"
+        }
+      ],
+      "container-title": "Proceedings of the 56th annual meeting of the association for computational linguistics (volume 2: Short papers)",
+      "id": "weiss2018practical",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "page": "740-745",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Melbourne, Australia",
+      "title": "On the practical computational power of finite precision RNNs for language recognition",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/W19-3901.pdf",
+      "author": [
+        {
+          "family": "Merrill",
+          "given": "William"
+        }
+      ],
+      "container-title": "Proceedings of the workshop on deep learning and formal languages: Building bridges",
+      "id": "merrill2019sequential",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "1-13",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Florence",
+      "title": "Sequential neural networks as automata",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/D18-1503.pdf",
+      "abstract": "Recent work has shown that recurrent neural networks (RNNs) can implicitly capture and exploit hierarchical information when trained to solve common natural language processing tasks (Blevins et al., 2018) such as language modeling (Linzen et al., 2016; Gulordava et al., 2018) and neural machine translation (Shi et al., 2016). In contrast, the ability to model structured data with non-recurrent neural networks has received little attention despite their success in many NLP tasks (Gehring et al., 2017; Vaswani et al., 2017). In this work, we compare the two architectures—recurrent versus non-recurrent—with respect to their ability to model hierarchical structure and find that recurrency is indeed important for this purpose. The code and data used in our experiments is available at https://github.com/ ketranm/fan_vs_rnn",
+      "author": [
+        {
+          "family": "Tran",
+          "given": "Ke"
+        },
+        {
+          "family": "Bisazza",
+          "given": "Arianna"
+        },
+        {
+          "family": "Monz",
+          "given": "Christof"
+        }
+      ],
+      "container-title": "Proceedings of the 2018 conference on empirical methods in natural language processing",
+      "id": "tran2018hierarchy",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "page": "4731-4736",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Brussels, Belgium",
+      "title": "The importance of being recurrent for modeling hierarchical structure",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/1906.06349.pdf",
+      "author": [
+        {
+          "family": "Korsky",
+          "given": "Samuel A."
+        },
+        {
+          "family": "Berwick",
+          "given": "Robert C."
+        }
+      ],
+      "id": "korsky2019computational",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "title": "On the computational power of RNNs",
+      "type": "misc"
+    },
+    {
+      "URL": "https://aclanthology.org/W19-3905.pdf",
+      "author": [
+        {
+          "family": "Suzgun",
+          "given": "Mirac"
+        },
+        {
+          "family": "Belinkov",
+          "given": "Yonatan"
+        },
+        {
+          "family": "Shieber",
+          "given": "Stuart"
+        },
+        {
+          "family": "Gehrmann",
+          "given": "Sebastian"
+        }
+      ],
+      "container-title": "Proceedings of the workshop on deep learning and formal languages: Building bridges",
+      "id": "suzgun2019lstm",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "44-54",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Florence",
+      "title": "LSTM networks can perform dynamic counting",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/2020.findings-emnlp.384.pdf",
+      "author": [
+        {
+          "family": "Ebrahimi",
+          "given": "Javid"
+        },
+        {
+          "family": "Gelda",
+          "given": "Dhruv"
+        },
+        {
+          "family": "Zhang",
+          "given": "Wei"
+        }
+      ],
+      "container-title": "Findings of the association for computational linguistics: EMNLP 2020",
+      "id": "ebrahimi2020dyck",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "page": "4301-4306",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Online",
+      "title": "How can self-attention networks recognize dyck-n languages?",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://openreview.net/forum?id=WbxHAzkeQcn",
+      "author": [
+        {
+          "family": "Delétang",
+          "given": "Gregoire"
+        },
+        {
+          "family": "Ruoss",
+          "given": "Anian"
+        },
+        {
+          "family": "Grau-Moya",
+          "given": "Jordi"
+        },
+        {
+          "family": "Genewein",
+          "given": "Tim"
+        },
+        {
+          "family": "Wenliang",
+          "given": "Li Kevin"
+        },
+        {
+          "family": "Catt",
+          "given": "Elliot"
+        },
+        {
+          "family": "Cundy",
+          "given": "Chris"
+        },
+        {
+          "family": "Hutter",
+          "given": "Marcus"
+        },
+        {
+          "family": "Legg",
+          "given": "Shane"
+        },
+        {
+          "family": "Veness",
+          "given": "Joel"
+        },
+        {
+          "family": "Ortega",
+          "given": "Pedro A"
+        }
+      ],
+      "container-title": "The eleventh international conference on learning representations",
+      "id": "deletang2023chomsky",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "Neural networks and the chomsky hierarchy",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/2020.acl-main.43.pdf",
+      "author": [
+        {
+          "family": "Merrill",
+          "given": "William"
+        },
+        {
+          "family": "Weiss",
+          "given": "Gail"
+        },
+        {
+          "family": "Goldberg",
+          "given": "Yoav"
+        },
+        {
+          "family": "Schwartz",
+          "given": "Roy"
+        },
+        {
+          "family": "Smith",
+          "given": "Noah A."
+        },
+        {
+          "family": "Yahav",
+          "given": "Eran"
+        }
+      ],
+      "container-title": "Proceedings of the 58th annual meeting of the association for computational linguistics",
+      "id": "merrill2020formal",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "page": "443-459",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Online",
+      "title": "A formal hierarchy of RNN architectures",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://D2L.ai",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Aston"
+        },
+        {
+          "family": "Lipton",
+          "given": "Zachary C."
+        },
+        {
+          "family": "Li",
+          "given": "Mu"
+        },
+        {
+          "family": "Smola",
+          "given": "Alexander J."
+        }
+      ],
+      "id": "zhang2023dive",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "publisher": "Cambridge University Press",
+      "title": "Dive into deep learning",
+      "type": "book"
+    },
+    {
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+      "author": [
+        {
+          "family": "Vaswani",
+          "given": "Ashish"
+        },
+        {
+          "family": "Shazeer",
+          "given": "Noam"
+        },
+        {
+          "family": "Parmar",
+          "given": "Niki"
+        },
+        {
+          "family": "Uszkoreit",
+          "given": "Jakob"
+        },
+        {
+          "family": "Jones",
+          "given": "Llion"
+        },
+        {
+          "family": "Gomez",
+          "given": "Aidan N"
+        },
+        {
+          "family": "Kaiser",
+          "given": "Łukasz"
+        },
+        {
+          "family": "Polosukhin",
+          "given": "Illia"
+        }
+      ],
+      "container-title": "Advances in neural information processing systems",
+      "editor": [
+        {
+          "family": "Guyon",
+          "given": "I."
+        },
+        {
+          "family": "Luxburg",
+          "given": "U. Von"
+        },
+        {
+          "family": "Bengio",
+          "given": "S."
+        },
+        {
+          "family": "Wallach",
+          "given": "H."
+        },
+        {
+          "family": "Fergus",
+          "given": "R."
+        },
+        {
+          "family": "Vishwanathan",
+          "given": "S."
+        },
+        {
+          "family": "Garnett",
+          "given": "R."
+        }
+      ],
+      "id": "vaswani2017transformer",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "publisher": "Curran Associates, Inc.",
+      "title": "Attention is all you need",
+      "type": "paper-conference",
+      "volume": "30"
+    },
+    {
+      "URL": "https://openreview.net/forum?id=HyGBdo0qFm",
+      "author": [
+        {
+          "family": "Pérez",
+          "given": "Jorge"
+        },
+        {
+          "family": "Marinković",
+          "given": "Javier"
+        },
+        {
+          "family": "Barceló",
+          "given": "Pablo"
+        }
+      ],
+      "container-title": "International conference on learning representations",
+      "id": "perez2019turing",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "title": "On the turing completeness of modern neural network architectures",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://jmlr.org/papers/volume22/20-302/20-302.pdf",
+      "author": [
+        {
+          "family": "Pérez",
+          "given": "Jorge"
+        },
+        {
+          "family": "Barceló",
+          "given": "Pablo"
+        },
+        {
+          "family": "Marinkovic",
+          "given": "Javier"
+        }
+      ],
+      "container-title": "Journal of Machine Learning Research",
+      "id": "perez2021turing",
+      "issue": "75",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "page": "1-35",
+      "title": "Attention is turing-complete",
+      "type": "article-journal",
+      "volume": "22"
+    },
+    {
+      "URL": "https://aclanthology.org/2020.tacl-1.11.pdf",
+      "author": [
+        {
+          "family": "Hahn",
+          "given": "Michael"
+        }
+      ],
+      "container-title": "Transactions of the Association for Computational Linguistics",
+      "id": "hahn2020limitations",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "page": "156-171",
+      "publisher": "MIT Press",
+      "publisher-place": "Cambridge, MA",
+      "title": "Theoretical limitations of self-attention in neural sequence models",
+      "type": "article-journal",
+      "volume": "8"
+    },
+    {
+      "URL": "https://aclanthology.org/2022.acl-long.527.pdf",
+      "author": [
+        {
+          "family": "Chiang",
+          "given": "David"
+        },
+        {
+          "family": "Cholak",
+          "given": "Peter"
+        }
+      ],
+      "container-title": "Proceedings of the 60th annual meeting of the association for computational linguistics (volume 1: Long papers)",
+      "id": "chiang2022overcoming",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "page": "7654-7664",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Dublin, Ireland",
+      "title": "Overcoming a theoretical limitation of self-attention",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/2021.acl-long.292.pdf",
+      "author": [
+        {
+          "family": "Yao",
+          "given": "Shunyu"
+        },
+        {
+          "family": "Peng",
+          "given": "Binghui"
+        },
+        {
+          "family": "Papadimitriou",
+          "given": "Christos"
+        },
+        {
+          "family": "Narasimhan",
+          "given": "Karthik"
+        }
+      ],
+      "container-title": "Proceedings of the 59th annual meeting of the association for computational linguistics and the 11th international joint conference on natural language processing (volume 1: Long papers)",
+      "id": "yao2021bounded",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "page": "3770-3785",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Online",
+      "title": "Self-attention networks can process bounded hierarchical languages",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/2020.emnlp-main.576.pdf",
+      "author": [
+        {
+          "family": "Bhattamishra",
+          "given": "Satwik"
+        },
+        {
+          "family": "Ahuja",
+          "given": "Kabir"
+        },
+        {
+          "family": "Goyal",
+          "given": "Navin"
+        }
+      ],
+      "container-title": "Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP)",
+      "id": "bhattamishra2020ability",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "page": "7096-7116",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Online",
+      "title": "On the ability and limitations of transformers to recognize formal languages",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "http://proceedings.mlr.press/v139/weiss21a/weiss21a.pdf",
+      "author": [
+        {
+          "family": "Weiss",
+          "given": "Gail"
+        },
+        {
+          "family": "Goldberg",
+          "given": "Yoav"
+        },
+        {
+          "family": "Yahav",
+          "given": "Eran"
+        }
+      ],
+      "collection-title": "Proceedings of machine learning research",
+      "container-title": "Proceedings of the 38th international conference on machine learning",
+      "editor": [
+        {
+          "family": "Meila",
+          "given": "Marina"
+        },
+        {
+          "family": "Zhang",
+          "given": "Tong"
+        }
+      ],
+      "id": "weiss2021rasp",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "page": "11080-11090",
+      "publisher": "PMLR",
+      "title": "Thinking like transformers",
+      "type": "paper-conference",
+      "volume": "139"
+    },
+    {
+      "URL": "https://aclanthology.org/2022.tacl-1.46.pdf",
+      "author": [
+        {
+          "family": "Hao",
+          "given": "Yiding"
+        },
+        {
+          "family": "Angluin",
+          "given": "Dana"
+        },
+        {
+          "family": "Frank",
+          "given": "Robert"
+        }
+      ],
+      "container-title": "Transactions of the Association for Computational Linguistics",
+      "id": "hao2022circuit",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "page": "800-810",
+      "publisher": "MIT Press",
+      "publisher-place": "Cambridge, MA",
+      "title": "Formal language recognition by hard attention transformers: Perspectives from circuit complexity",
+      "title-short": "Formal language recognition by hard attention transformers",
+      "type": "article-journal",
+      "volume": "10"
+    },
+    {
+      "URL": "https://aclanthology.org/2022.tacl-1.49.pdf",
+      "author": [
+        {
+          "family": "Merrill",
+          "given": "William"
+        },
+        {
+          "family": "Sabharwal",
+          "given": "Ashish"
+        },
+        {
+          "family": "Smith",
+          "given": "Noah A."
+        }
+      ],
+      "container-title": "Transactions of the Association for Computational Linguistics",
+      "id": "merrill2022saturated",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "page": "843-856",
+      "publisher": "MIT Press",
+      "publisher-place": "Cambridge, MA",
+      "title": "Saturated transformers are constant-depth threshold circuits",
+      "type": "article-journal",
+      "volume": "10"
+    },
+    {
+      "URL": "https://aclanthology.org/2023.tacl-1.31.pdf",
+      "author": [
+        {
+          "family": "Merrill",
+          "given": "William"
+        },
+        {
+          "family": "Sabharwal",
+          "given": "Ashish"
+        }
+      ],
+      "container-title": "Transactions of the Association for Computational Linguistics",
+      "id": "merrill2023parallelism",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "page": "531-545",
+      "publisher": "MIT Press",
+      "publisher-place": "Cambridge, MA",
+      "title": "The parallelism tradeoff: Limitations of log-precision transformers",
+      "title-short": "The parallelism tradeoff",
+      "type": "article-journal",
+      "volume": "11"
+    },
+    {
+      "URL": "https://proceedings.mlr.press/v202/chiang23a/chiang23a.pdf",
+      "author": [
+        {
+          "family": "Chiang",
+          "given": "David"
+        },
+        {
+          "family": "Cholak",
+          "given": "Peter"
+        },
+        {
+          "family": "Pillay",
+          "given": "Anand"
+        }
+      ],
+      "collection-title": "Proceedings of machine learning research",
+      "container-title": "Proceedings of the 40th international conference on machine learning",
+      "editor": [
+        {
+          "family": "Krause",
+          "given": "Andreas"
+        },
+        {
+          "family": "Brunskill",
+          "given": "Emma"
+        },
+        {
+          "family": "Cho",
+          "given": "Kyunghyun"
+        },
+        {
+          "family": "Engelhardt",
+          "given": "Barbara"
+        },
+        {
+          "family": "Sabato",
+          "given": "Sivan"
+        },
+        {
+          "family": "Scarlett",
+          "given": "Jonathan"
+        }
+      ],
+      "id": "chiang2023tighter",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "page": "5544-5562",
+      "publisher": "PMLR",
+      "title": "Tighter bounds on the expressivity of transformer encoders",
+      "type": "paper-conference",
+      "volume": "202"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2210.02671v4.pdf",
+      "author": [
+        {
+          "family": "Merrill",
+          "given": "William"
+        },
+        {
+          "family": "Sabharwal",
+          "given": "Ashish"
+        }
+      ],
+      "id": "merrill2023logic",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "A logic for expressing log-precision transformers",
+      "type": "misc"
+    },
+    {
+      "URL": "https://openreview.net/forum?id=HyzdRiR9Y7",
+      "author": [
+        {
+          "family": "Dehghani",
+          "given": "Mostafa"
+        },
+        {
+          "family": "Gouws",
+          "given": "Stephan"
+        },
+        {
+          "family": "Vinyals",
+          "given": "Oriol"
+        },
+        {
+          "family": "Uszkoreit",
+          "given": "Jakob"
+        },
+        {
+          "family": "Kaiser",
+          "given": "Lukasz"
+        }
+      ],
+      "container-title": "International conference on learning representations",
+      "id": "dehghani2019ut",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "title": "Universal transformers",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://aclanthology.org/N19-1423.pdf",
+      "author": [
+        {
+          "family": "Devlin",
+          "given": "Jacob"
+        },
+        {
+          "family": "Chang",
+          "given": "Ming-Wei"
+        },
+        {
+          "family": "Lee",
+          "given": "Kenton"
+        },
+        {
+          "family": "Toutanova",
+          "given": "Kristina"
+        }
+      ],
+      "container-title": "Proceedings of the 2019 conference of the north american chapter of the association for computational linguistics: Human language technologies, volume 1 (long and short papers)",
+      "id": "devlin2019bert",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "4171-4186",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Minneapolis, Minnesota",
+      "title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+      "title-short": "BERT",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2005.14165.pdf",
+      "author": [
+        {
+          "family": "Brown",
+          "given": "Tom B."
+        },
+        {
+          "family": "Mann",
+          "given": "Benjamin"
+        },
+        {
+          "family": "Ryder",
+          "given": "Nick"
+        },
+        {
+          "family": "Subbiah",
+          "given": "Melanie"
+        },
+        {
+          "family": "Kaplan",
+          "given": "Jared"
+        },
+        {
+          "family": "Dhariwal",
+          "given": "Prafulla"
+        },
+        {
+          "family": "Neelakantan",
+          "given": "Arvind"
+        },
+        {
+          "family": "Shyam",
+          "given": "Pranav"
+        },
+        {
+          "family": "Sastry",
+          "given": "Girish"
+        },
+        {
+          "family": "Askell",
+          "given": "Amanda"
+        },
+        {
+          "family": "Agarwal",
+          "given": "Sandhini"
+        },
+        {
+          "family": "Herbert-Voss",
+          "given": "Ariel"
+        },
+        {
+          "family": "Krueger",
+          "given": "Gretchen"
+        },
+        {
+          "family": "Henighan",
+          "given": "Tom"
+        },
+        {
+          "family": "Child",
+          "given": "Rewon"
+        },
+        {
+          "family": "Ramesh",
+          "given": "Aditya"
+        },
+        {
+          "family": "Ziegler",
+          "given": "Daniel M."
+        },
+        {
+          "family": "Wu",
+          "given": "Jeffrey"
+        },
+        {
+          "family": "Winter",
+          "given": "Clemens"
+        },
+        {
+          "family": "Hesse",
+          "given": "Christopher"
+        },
+        {
+          "family": "Chen",
+          "given": "Mark"
+        },
+        {
+          "family": "Sigler",
+          "given": "Eric"
+        },
+        {
+          "family": "Litwin",
+          "given": "Mateusz"
+        },
+        {
+          "family": "Gray",
+          "given": "Scott"
+        },
+        {
+          "family": "Chess",
+          "given": "Benjamin"
+        },
+        {
+          "family": "Clark",
+          "given": "Jack"
+        },
+        {
+          "family": "Berner",
+          "given": "Christopher"
+        },
+        {
+          "family": "McCandlish",
+          "given": "Sam"
+        },
+        {
+          "family": "Radford",
+          "given": "Alec"
+        },
+        {
+          "family": "Sutskever",
+          "given": "Ilya"
+        },
+        {
+          "family": "Amodei",
+          "given": "Dario"
+        }
+      ],
+      "id": "brown2020gpt",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "title": "Language models are few-shot learners",
+      "type": "misc"
+    },
+    {
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2015/file/b9d487a30398d42ecff55c228ed5652b-Paper.pdf",
+      "author": [
+        {
+          "family": "Grefenstette",
+          "given": "Edward"
+        },
+        {
+          "family": "Hermann",
+          "given": "Karl Moritz"
+        },
+        {
+          "family": "Suleyman",
+          "given": "Mustafa"
+        },
+        {
+          "family": "Blunsom",
+          "given": "Phil"
+        }
+      ],
+      "container-title": "Advances in neural information processing systems",
+      "editor": [
+        {
+          "family": "Cortes",
+          "given": "C."
+        },
+        {
+          "family": "Lawrence",
+          "given": "N."
+        },
+        {
+          "family": "Lee",
+          "given": "D."
+        },
+        {
+          "family": "Sugiyama",
+          "given": "M."
+        },
+        {
+          "family": "Garnett",
+          "given": "R."
+        }
+      ],
+      "id": "grefenstette2015transduce",
+      "issued": {
+        "date-parts": [
+          [
+            2015
+          ]
+        ]
+      },
+      "publisher": "Curran Associates, Inc.",
+      "title": "Learning to transduce with unbounded memory",
+      "type": "paper-conference",
+      "volume": "28"
+    },
+    {
+      "URL": "https://aclanthology.org/W18-5433.pdf",
+      "author": [
+        {
+          "family": "Hao",
+          "given": "Yiding"
+        },
+        {
+          "family": "Merrill",
+          "given": "William"
+        },
+        {
+          "family": "Angluin",
+          "given": "Dana"
+        },
+        {
+          "family": "Frank",
+          "given": "Robert"
+        },
+        {
+          "family": "Amsel",
+          "given": "Noah"
+        },
+        {
+          "family": "Benz",
+          "given": "Andrew"
+        },
+        {
+          "family": "Mendelsohn",
+          "given": "Simon"
+        }
+      ],
+      "container-title": "Proceedings of the 2018 EMNLP workshop BlackboxNLP: Analyzing and interpreting neural networks for NLP",
+      "id": "hao2018context",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "page": "306-315",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Brussels, Belgium",
+      "title": "Context-free transductions with neural stacks",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/1503.01007.pdf",
+      "author": [
+        {
+          "family": "Joulin",
+          "given": "Armand"
+        },
+        {
+          "family": "Mikolov",
+          "given": "Tomas"
+        }
+      ],
+      "id": "joulin2015inferring",
+      "issued": {
+        "date-parts": [
+          [
+            2015
+          ]
+        ]
+      },
+      "title": "Inferring algorithmic patterns with stack-augmented recurrent nets",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/1911.03329.pdf",
+      "author": [
+        {
+          "family": "Suzgun",
+          "given": "Mirac"
+        },
+        {
+          "family": "Gehrmann",
+          "given": "Sebastian"
+        },
+        {
+          "family": "Belinkov",
+          "given": "Yonatan"
+        },
+        {
+          "family": "Shieber",
+          "given": "Stuart M."
+        }
+      ],
+      "id": "suzgun2019memory",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "title": "Memory-augmented recurrent neural networks can learn generalized dyck languages",
+      "type": "misc"
+    },
+    {
+      "URL": "https://openreview.net/forum?id=o58JtGDs6y",
+      "author": [
+        {
+          "family": "DuSell",
+          "given": "Brian"
+        },
+        {
+          "family": "Chiang",
+          "given": "David"
+        }
+      ],
+      "container-title": "The eleventh international conference on learning representations",
+      "id": "dusell2023nstack",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "The surprising computational power of nondeterministic stack RNNs",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2016/file/3fab5890d8113d0b5a4178201dc842ad-Paper.pdf",
+      "author": [
+        {
+          "family": "Rae",
+          "given": "Jack"
+        },
+        {
+          "family": "Hunt",
+          "given": "Jonathan J"
+        },
+        {
+          "family": "Danihelka",
+          "given": "Ivo"
+        },
+        {
+          "family": "Harley",
+          "given": "Timothy"
+        },
+        {
+          "family": "Senior",
+          "given": "Andrew W"
+        },
+        {
+          "family": "Wayne",
+          "given": "Gregory"
+        },
+        {
+          "family": "Graves",
+          "given": "Alex"
+        },
+        {
+          "family": "Lillicrap",
+          "given": "Timothy"
+        }
+      ],
+      "container-title": "Advances in neural information processing systems",
+      "editor": [
+        {
+          "family": "Lee",
+          "given": "D."
+        },
+        {
+          "family": "Sugiyama",
+          "given": "M."
+        },
+        {
+          "family": "Luxburg",
+          "given": "U."
+        },
+        {
+          "family": "Guyon",
+          "given": "I."
+        },
+        {
+          "family": "Garnett",
+          "given": "R."
+        }
+      ],
+      "id": "rae2016scaling",
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "publisher": "Curran Associates, Inc.",
+      "title": "Scaling memory-augmented neural networks with sparse reads and writes",
+      "type": "paper-conference",
+      "volume": "29"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/1410.5401.pdf",
+      "author": [
+        {
+          "family": "Graves",
+          "given": "Alex"
+        },
+        {
+          "family": "Wayne",
+          "given": "Greg"
+        },
+        {
+          "family": "Danihelka",
+          "given": "Ivo"
+        }
+      ],
+      "id": "graves2014ntm",
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "title": "Neural turing machines",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/1603.08983.pdf",
+      "author": [
+        {
+          "family": "Graves",
+          "given": "Alex"
+        }
+      ],
+      "id": "graves2017act",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "title": "Adaptive computation time for recurrent neural networks",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2107.05407.pdf",
+      "author": [
+        {
+          "family": "Banino",
+          "given": "Andrea"
+        },
+        {
+          "family": "Balaguer",
+          "given": "Jan"
+        },
+        {
+          "family": "Blundell",
+          "given": "Charles"
+        }
+      ],
+      "id": "banino2021pondernet",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "title": "PonderNet: Learning to ponder",
+      "title-short": "PonderNet",
+      "type": "misc"
+    },
+    {
+      "URL": "http://proceedings.mlr.press/v70/amos17a/amos17a.pdf",
+      "author": [
+        {
+          "family": "Amos",
+          "given": "Brandon"
+        },
+        {
+          "family": "Kolter",
+          "given": "J. Zico"
+        }
+      ],
+      "collection-title": "Proceedings of machine learning research",
+      "container-title": "Proceedings of the 34th international conference on machine learning",
+      "editor": [
+        {
+          "family": "Precup",
+          "given": "Doina"
+        },
+        {
+          "family": "Teh",
+          "given": "Yee Whye"
+        }
+      ],
+      "id": "amos2017optnet",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "page": "136-145",
+      "publisher": "PMLR",
+      "title": "OptNet: Differentiable optimization as a layer in neural networks",
+      "title-short": "OptNet",
+      "type": "paper-conference",
+      "volume": "70"
+    },
+    {
+      "URL": "http://proceedings.mlr.press/v97/wang19e/wang19e.pdf",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Po-Wei"
+        },
+        {
+          "family": "Donti",
+          "given": "Priya"
+        },
+        {
+          "family": "Wilder",
+          "given": "Bryan"
+        },
+        {
+          "family": "Kolter",
+          "given": "Zico"
+        }
+      ],
+      "collection-title": "Proceedings of machine learning research",
+      "container-title": "Proceedings of the 36th international conference on machine learning",
+      "editor": [
+        {
+          "family": "Chaudhuri",
+          "given": "Kamalika"
+        },
+        {
+          "family": "Salakhutdinov",
+          "given": "Ruslan"
+        }
+      ],
+      "id": "wang2019satnet",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "6545-6554",
+      "publisher": "PMLR",
+      "title": "SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver",
+      "title-short": "SATNet",
+      "type": "paper-conference",
+      "volume": "97"
+    },
+    {
+      "URL": "http://proceedings.mlr.press/v139/paulus21a/paulus21a.pdf",
+      "author": [
+        {
+          "family": "Paulus",
+          "given": "Anselm"
+        },
+        {
+          "family": "Rolinek",
+          "given": "Michal"
+        },
+        {
+          "family": "Musil",
+          "given": "Vit"
+        },
+        {
+          "family": "Amos",
+          "given": "Brandon"
+        },
+        {
+          "family": "Martius",
+          "given": "Georg"
+        }
+      ],
+      "collection-title": "Proceedings of machine learning research",
+      "container-title": "Proceedings of the 38th international conference on machine learning",
+      "editor": [
+        {
+          "family": "Meila",
+          "given": "Marina"
+        },
+        {
+          "family": "Zhang",
+          "given": "Tong"
+        }
+      ],
+      "id": "paulus2021comboptnet",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "page": "8443-8453",
+      "publisher": "PMLR",
+      "title": "CombOptNet: Fit the right NP-hard problem by learning integer programming constraints",
+      "title-short": "CombOptNet",
+      "type": "paper-conference",
+      "volume": "139"
+    },
+    {
+      "URL": "https://proceedings.mlr.press/v162/du22d/du22d.pdf",
+      "author": [
+        {
+          "family": "Du",
+          "given": "Yilun"
+        },
+        {
+          "family": "Li",
+          "given": "Shuang"
+        },
+        {
+          "family": "Tenenbaum",
+          "given": "Joshua"
+        },
+        {
+          "family": "Mordatch",
+          "given": "Igor"
+        }
+      ],
+      "collection-title": "Proceedings of machine learning research",
+      "container-title": "Proceedings of the 39th international conference on machine learning",
+      "editor": [
+        {
+          "family": "Chaudhuri",
+          "given": "Kamalika"
+        },
+        {
+          "family": "Jegelka",
+          "given": "Stefanie"
+        },
+        {
+          "family": "Song",
+          "given": "Le"
+        },
+        {
+          "family": "Szepesvari",
+          "given": "Csaba"
+        },
+        {
+          "family": "Niu",
+          "given": "Gang"
+        },
+        {
+          "family": "Sabato",
+          "given": "Sivan"
+        }
+      ],
+      "id": "du2022irem",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "page": "5570-5582",
+      "publisher": "PMLR",
+      "title": "Learning iterative reasoning through energy minimization",
+      "type": "paper-conference",
+      "volume": "162"
+    },
+    {
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2019/file/01386bd6d8e091c2ab4c7c7de644d37b-Paper.pdf",
+      "author": [
+        {
+          "family": "Bai",
+          "given": "Shaojie"
+        },
+        {
+          "family": "Kolter",
+          "given": "J. Zico"
+        },
+        {
+          "family": "Koltun",
+          "given": "Vladlen"
+        }
+      ],
+      "container-title": "Advances in neural information processing systems",
+      "editor": [
+        {
+          "family": "Wallach",
+          "given": "H."
+        },
+        {
+          "family": "Larochelle",
+          "given": "H."
+        },
+        {
+          "family": "Beygelzimer",
+          "given": "A."
+        },
+        {
+          "family": "dAlché-Buc",
+          "given": "F."
+        },
+        {
+          "family": "Fox",
+          "given": "E."
+        },
+        {
+          "family": "Garnett",
+          "given": "R."
+        }
+      ],
+      "id": "bai2019deq",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "publisher": "Curran Associates, Inc.",
+      "title": "Deep equilibrium models",
+      "type": "paper-conference",
+      "volume": "32"
+    },
+    {
+      "author": [
+        {
+          "family": "Liang",
+          "given": "Kaiqu"
+        },
+        {
+          "family": "Anil",
+          "given": "Cem"
+        },
+        {
+          "family": "Wu",
+          "given": "Yuhuai"
+        },
+        {
+          "family": "Grosse",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "Uncertainty and robustness in deep learning, ICML",
+      "id": "liang2021deqood",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "title": "Out-of-distribution generalization with deep equilibrium models",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8bb0d291acd4acf06ef112099c16f326-Paper-Conference.pdf",
+      "author": [
+        {
+          "family": "Kojima",
+          "given": "Takeshi"
+        },
+        {
+          "family": "Gu",
+          "given": "Shixiang (Shane)"
+        },
+        {
+          "family": "Reid",
+          "given": "Machel"
+        },
+        {
+          "family": "Matsuo",
+          "given": "Yutaka"
+        },
+        {
+          "family": "Iwasawa",
+          "given": "Yusuke"
+        }
+      ],
+      "container-title": "Advances in neural information processing systems",
+      "editor": [
+        {
+          "family": "Koyejo",
+          "given": "S."
+        },
+        {
+          "family": "Mohamed",
+          "given": "S."
+        },
+        {
+          "family": "Agarwal",
+          "given": "A."
+        },
+        {
+          "family": "Belgrave",
+          "given": "D."
+        },
+        {
+          "family": "Cho",
+          "given": "K."
+        },
+        {
+          "family": "Oh",
+          "given": "A."
+        }
+      ],
+      "id": "kojima2022zeroshot",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "page": "22199-22213",
+      "publisher": "Curran Associates, Inc.",
+      "title": "Large language models are zero-shot reasoners",
+      "type": "paper-conference",
+      "volume": "35"
+    },
+    {
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf",
+      "author": [
+        {
+          "family": "Wei",
+          "given": "Jason"
+        },
+        {
+          "family": "Wang",
+          "given": "Xuezhi"
+        },
+        {
+          "family": "Schuurmans",
+          "given": "Dale"
+        },
+        {
+          "family": "Bosma",
+          "given": "Maarten"
+        },
+        {
+          "family": "ichter",
+          "given": "brian"
+        },
+        {
+          "family": "Xia",
+          "given": "Fei"
+        },
+        {
+          "family": "Chi",
+          "given": "Ed"
+        },
+        {
+          "family": "Le",
+          "given": "Quoc V"
+        },
+        {
+          "family": "Zhou",
+          "given": "Denny"
+        }
+      ],
+      "container-title": "Advances in neural information processing systems",
+      "editor": [
+        {
+          "family": "Koyejo",
+          "given": "S."
+        },
+        {
+          "family": "Mohamed",
+          "given": "S."
+        },
+        {
+          "family": "Agarwal",
+          "given": "A."
+        },
+        {
+          "family": "Belgrave",
+          "given": "D."
+        },
+        {
+          "family": "Cho",
+          "given": "K."
+        },
+        {
+          "family": "Oh",
+          "given": "A."
+        }
+      ],
+      "id": "wei2022cot",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "page": "24824-24837",
+      "publisher": "Curran Associates, Inc.",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "type": "paper-conference",
+      "volume": "35"
+    },
+    {
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2021/file/ef452c63f81d0105dd4486f775adec81-Paper.pdf",
+      "author": [
+        {
+          "family": "Chung",
+          "given": "Stephen"
+        },
+        {
+          "family": "Siegelmann",
+          "given": "Hava"
+        }
+      ],
+      "container-title": "Advances in neural information processing systems",
+      "editor": [
+        {
+          "family": "Ranzato",
+          "given": "M."
+        },
+        {
+          "family": "Beygelzimer",
+          "given": "A."
+        },
+        {
+          "family": "Dauphin",
+          "given": "Y."
+        },
+        {
+          "family": "Liang",
+          "given": "P. S."
+        },
+        {
+          "family": "Vaughan",
+          "given": "J. Wortman"
+        }
+      ],
+      "id": "chung2021rnnbounded",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "page": "28431-28441",
+      "publisher": "Curran Associates, Inc.",
+      "title": "Turing completeness of bounded-precision recurrent neural networks",
+      "type": "paper-conference",
+      "volume": "34"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2008.07669.pdf",
+      "author": [
+        {
+          "family": "Gu",
+          "given": "Albert"
+        },
+        {
+          "family": "Dao",
+          "given": "Tri"
+        },
+        {
+          "family": "Ermon",
+          "given": "Stefano"
+        },
+        {
+          "family": "Rudra",
+          "given": "Atri"
+        },
+        {
+          "family": "Ré",
+          "given": "Christopher"
+        }
+      ],
+      "id": "gu2020hippo",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "title": "HiPPO: Recurrent memory with optimal polynomial projections",
+      "title-short": "HiPPO",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2110.13985.pdf",
+      "author": [
+        {
+          "family": "Gu",
+          "given": "Albert"
+        },
+        {
+          "family": "Johnson",
+          "given": "Isys"
+        },
+        {
+          "family": "Goel",
+          "given": "Karan"
+        },
+        {
+          "family": "Saab",
+          "given": "Khaled"
+        },
+        {
+          "family": "Dao",
+          "given": "Tri"
+        },
+        {
+          "family": "Rudra",
+          "given": "Atri"
+        },
+        {
+          "family": "Ré",
+          "given": "Christopher"
+        }
+      ],
+      "id": "gu2021lssl",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "title": "Combining recurrent, convolutional, and continuous-time models with linear state-space layers",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2111.00396.pdf",
+      "author": [
+        {
+          "family": "Gu",
+          "given": "Albert"
+        },
+        {
+          "family": "Goel",
+          "given": "Karan"
+        },
+        {
+          "family": "Ré",
+          "given": "Christopher"
+        }
+      ],
+      "id": "gu2022efficiently",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "title": "Efficiently modeling long sequences with structured state spaces",
+      "type": "misc"
+    },
+    {
+      "URL": "https://openreview.net/forum?id=Ai8Hw3AXqks",
+      "author": [
+        {
+          "family": "Smith",
+          "given": "Jimmy T. H."
+        },
+        {
+          "family": "Warrington",
+          "given": "Andrew"
+        },
+        {
+          "family": "Linderman",
+          "given": "Scott"
+        }
+      ],
+      "container-title": "The eleventh international conference on learning representations",
+      "id": "smith2023simplified",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "Simplified state space layers for sequence modeling",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2303.06349.pdf",
+      "author": [
+        {
+          "family": "Orvieto",
+          "given": "Antonio"
+        },
+        {
+          "family": "Smith",
+          "given": "Samuel L"
+        },
+        {
+          "family": "Gu",
+          "given": "Albert"
+        },
+        {
+          "family": "Fernando",
+          "given": "Anushan"
+        },
+        {
+          "family": "Gulcehre",
+          "given": "Caglar"
+        },
+        {
+          "family": "Pascanu",
+          "given": "Razvan"
+        },
+        {
+          "family": "De",
+          "given": "Soham"
+        }
+      ],
+      "id": "orvieto2023resurrecting",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "Resurrecting recurrent neural networks for long sequences",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2302.10866.pdf",
+      "author": [
+        {
+          "family": "Poli",
+          "given": "Michael"
+        },
+        {
+          "family": "Massaroli",
+          "given": "Stefano"
+        },
+        {
+          "family": "Nguyen",
+          "given": "Eric"
+        },
+        {
+          "family": "Fu",
+          "given": "Daniel Y."
+        },
+        {
+          "family": "Dao",
+          "given": "Tri"
+        },
+        {
+          "family": "Baccus",
+          "given": "Stephen"
+        },
+        {
+          "family": "Bengio",
+          "given": "Yoshua"
+        },
+        {
+          "family": "Ermon",
+          "given": "Stefano"
+        },
+        {
+          "family": "Ré",
+          "given": "Christopher"
+        }
+      ],
+      "id": "poli2023hyena",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "Hyena hierarchy: Towards larger convolutional language models",
+      "title-short": "Hyena hierarchy",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2307.08621.pdf",
+      "author": [
+        {
+          "family": "Sun",
+          "given": "Yutao"
+        },
+        {
+          "family": "Dong",
+          "given": "Li"
+        },
+        {
+          "family": "Huang",
+          "given": "Shaohan"
+        },
+        {
+          "family": "Ma",
+          "given": "Shuming"
+        },
+        {
+          "family": "Xia",
+          "given": "Yuqing"
+        },
+        {
+          "family": "Xue",
+          "given": "Jilong"
+        },
+        {
+          "family": "Wang",
+          "given": "Jianyong"
+        },
+        {
+          "family": "Wei",
+          "given": "Furu"
+        }
+      ],
+      "id": "sun2023retnet",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "Retentive network: A successor to transformer for large language models",
+      "title-short": "Retentive network",
+      "type": "misc"
+    },
+    {
+      "URL": "https://arxiv.org/pdf/2301.06627.pdf",
+      "author": [
+        {
+          "family": "Mahowald",
+          "given": "Kyle"
+        },
+        {
+          "family": "Ivanova",
+          "given": "Anna A."
+        },
+        {
+          "family": "Blank",
+          "given": "Idan A."
+        },
+        {
+          "family": "Kanwisher",
+          "given": "Nancy"
+        },
+        {
+          "family": "Tenenbaum",
+          "given": "Joshua B."
+        },
+        {
+          "family": "Fedorenko",
+          "given": "Evelina"
+        }
+      ],
+      "id": "mahowald2023dissociating",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "title": "Dissociating language and thought in large language models: A cognitive perspective",
+      "title-short": "Dissociating language and thought in large language models",
+      "type": "misc"
+    }
+  ]
+  

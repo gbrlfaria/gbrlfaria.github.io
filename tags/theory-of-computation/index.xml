@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Theory-of-Computation on Gabriel Faria</title>
+    <link>https://gbrlfaria.github.io/tags/theory-of-computation/</link>
+    <description>Blog posts in Theory-of-Computation from Gabriel Faria</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gbrlfaria.github.io/tags/theory-of-computation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Intelligence and the Computational Power of Neural Networks</title>
+      <link>https://gbrlfaria.github.io/posts/neural-networks-computational-power/</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://gbrlfaria.github.io/posts/neural-networks-computational-power/</guid>
+      <description>&lt;p&gt;Artificial intelligence has been a longstanding pursuit in the field of computer science, driven by the ultimate goal of creating machines capable of human-like intelligence.
+At its core, this endeavor aims to empower computers with the ability to solve a wide range of problems, from answering general questions to proving theorems, writing code, creating art, and playing games.
+This ability to solve a large variety of arbitrary problems may be referred to as &lt;em&gt;general intelligence&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
